@@ -18,12 +18,11 @@ class Player:
     def set_team(self, team):
         self.__team = team
 
-    @property
-    def item(self):
+    def get_item(self):
         return self.__item
 
-    def set_item(self):
-        return self.item
+    def set_item(self, item):
+        return self.item = item
 
 
 player = Player("forward", "red team", "blue team flag")
