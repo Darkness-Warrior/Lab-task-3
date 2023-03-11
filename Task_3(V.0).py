@@ -22,7 +22,7 @@ class Player:
         return self.__item
 
     def set_item(self, item):
-        return self.item = item
+        self.item = item
 
 
 player = Player("forward", "red team", "blue team flag")
