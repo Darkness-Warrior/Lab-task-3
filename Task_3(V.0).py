@@ -22,15 +22,15 @@ class Player:
         return self.__item
 
     def set_item(self, item):
-        self.item = item
+        self.__item = item
 
 
 player = Player("forward", "red team", "blue team flag")
 player2 = Player("on the flank", "blue team", "red team flag")
 
 print(player.movement)
-print(player.team)
-print(player.item, "\n")
+print(player.get_team())
+print(player.get_item(), "\n")
 print(player2.movement)
-print(player2.team)
-print(player2.item)
+print(player2.get_team())
+print(player2.get_item())
