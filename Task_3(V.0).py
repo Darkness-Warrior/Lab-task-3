@@ -28,6 +28,7 @@ class Player:
 player = Player("forward", "red team", "blue team flag")
 player2 = Player("on the flank", "blue team", "red team flag")
 
+
 print(player.movement)
 print(player.get_team())
 print(player.get_item(), "\n")
